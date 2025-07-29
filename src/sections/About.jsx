@@ -1,9 +1,10 @@
 import { section } from "motion/react-client";
 import React from "react";
+import Card from "../components/card";
 
 function About() {
   return (
-    <section className="c-space section-spacing">
+    <section id="About" className="c-space section-spacing scroll-mt-20">
       <h2 className="text-heading">About Me</h2>
       <div className="mt-12 grid grid-cols-1 md:grid-cols-6 md:auto-rows-[18rem] gap-4">
         <div className="flex items-end grid-default-color grid-1">
@@ -20,7 +21,33 @@ function About() {
           </div>
           <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
-        <div className="grid-default-color grid-2"></div>
+        <div className="grid-default-color grid-2">
+          <div className="flex items-center justify-center w-full h-full ">
+            <p className="flex items-end text-5xl text-grey-500">
+              CODE IS CRAFT
+            </p>
+            <Card
+              style={{ rotate: "75deg", top: "30%", left: "20%" }}
+              text="GRASP"
+            />
+            <Card
+              style={{ rotate: "-30deg", top: "60", left: "45%" }}
+              text="SOLID"
+            />
+            <Card
+              style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
+              text="DESIGN PRINCIPLE"
+            />
+            <Card
+              style={{ rotate: "45deg", top: "55%", left: "0%" }}
+              text="DESIGN PATTERNS"
+            />
+            <Card
+              style={{ rotate: "20deg", top: "10%", left: "38" }}
+              text="SRP"
+            />
+          </div>
+        </div>
         <div className="grid-black-color grid-3"></div>
         <div className="grid-special-color grid-4"></div>
         <div className="grid-default-color grid-5"></div>
