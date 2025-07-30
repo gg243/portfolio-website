@@ -85,7 +85,34 @@ function About() {
           </figure>
         </div>
         <div className="grid-special-color grid-4"></div>
-        <div className="grid-default-color grid-5"></div>
+        <div className="grid-default-color grid-5 p-2">
+          <div className="overflow-auto h-full">
+            <div className="subtext p-1 font-jetbrains">
+              I'm a software engineer with a diverse background in cloud
+              engineering and full-stack development. My expertise spans across
+              multiple technologies including:
+            </div>
+            <ol className=" subtext text-white">
+              <li>
+                <span className="font-extrabold text-3xl">.</span> AWS, Azure,
+                for cloud Engineerinf and Devops
+              </li>
+              <li>
+                <span className="font-extrabold text-3xl">.</span> TypeScript
+                and Flutter for application development
+              </li>
+              <li>
+                <span className="font-extrabold text-3xl">.</span> NextJS,
+                React, Nodejs and FastAPI as primary frameworks
+              </li>
+            </ol>
+            <p className="subtext mt-1 ">
+              Currently exploring the exciting world of Web3, diving deep into
+              cryptocurrency concepts and learning Solidity for smart contract
+              development.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

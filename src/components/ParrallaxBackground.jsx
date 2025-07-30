@@ -7,7 +7,7 @@ function ParrallaxBackground() {
   const mount2y = useTransform(scrollYProgress, [0, 0.5], ["0%", "30%"]);
   const mount1y = useTransform(scrollYProgress, [0, 0.5], ["0%", "0%"]);
   return (
-    <section className="absolute inset-0 bg-black/10">
+    <section className="absolute inset-0 bg-black/40">
       <div className="relative h-screen overflow-y-hidden">
         {/* Background sky */}
         <div

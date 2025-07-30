@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
 @import "tailwindcss";
+@font-face {
+  font-family: JetBrains Mono;
+  src: url("../fonts/JetBrainsMono-Medium.ttf");
+}
+
 @theme {
   --color-primary: #030412;
   --color-midnight: #06091f;
@@ -15,6 +20,8 @@
   --color-sand: #d6995c;
   --color-coral: #ea4884;
   --animate-orbit: orbit 50s linear infinite;
+  --font-jetbrains: "JetBrains Mono", monospace;
+
   @keyframes orbit {
     0% {
       transform: rotate(calc(var(--angle) * 1deg))
