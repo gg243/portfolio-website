@@ -1,6 +1,7 @@
 import { section } from "motion/react-client";
 import React, { use, useRef } from "react";
 import Card from "../components/card";
+import { Globe } from "../components/Globe";
 
 function About() {
   const grid2Container = useRef();
@@ -72,7 +73,17 @@ function About() {
             />
           </div>
         </div>
-        <div className="grid-black-color grid-3"></div>
+        <div className="grid-black-color grid-3">
+          <div className="z-10 w-[50%]">
+            <p className="headtext">Time Zone</p>
+            <p className="subtext">
+              I'm somewhere in UTC+1 and open to remote work Worldwide
+            </p>
+          </div>
+          <figure className="absolute left-[30%] top-[10%]">
+            <Globe />
+          </figure>
+        </div>
         <div className="grid-special-color grid-4"></div>
         <div className="grid-default-color grid-5"></div>
       </div>
