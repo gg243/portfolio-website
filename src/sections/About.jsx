@@ -2,6 +2,7 @@ import { section } from "motion/react-client";
 import React, { use, useRef } from "react";
 import Card from "../components/card";
 import { Globe } from "../components/Globe";
+import CopyEmailButton from "../components/CopyEmailButton";
 
 function About() {
   const grid2Container = useRef();
@@ -84,7 +85,14 @@ function About() {
             <Globe />
           </figure>
         </div>
-        <div className="grid-special-color grid-4"></div>
+        <div className="grid-special-color grid-4">
+          <div className="flex flex-col justify-center items-center gap-4 size-full">
+            <p className="headtext text-center">
+              Do You Want To Start A Project Together
+            </p>
+            <CopyEmailButton />
+          </div>
+        </div>
         <div className="grid-default-color grid-5 p-2">
           <div className="overflow-auto h-full">
             <div className="subtext p-1 font-jetbrains">
