@@ -2,15 +2,38 @@ import { section } from "motion/react-client";
 import React from "react";
 import { myProjects } from "../constant/index";
 import Project from "../components/Project";
+import { motion, useMotionValue } from "motion/react";
+import { useState } from "react";
 
 function Projects() {
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+
+  const handleMouseMove = (event) => {
+    x.set(event.clientX);
+    y.set(event.clientY);
+  };
+
+  const [preview, setPreview] = useState(null);
+
   return (
-    <section className="relative c-space section-spacing ">
+    <section
+      onMouseMove={handleMouseMove}
+      className="relative c-space section-spacing "
+    >
       <h2 className="text-heading">My Selected Projects</h2>
       <div className="bg-gradient-to-r from from-transparent via-neutral-700 to-transparent h-[1px] mt-12 w-full"></div>
       {myProjects.map((project) => (
-        <Project key={project.id} {...project} />
+        <Project key={project.id} {...project} setPreview={setPreview} />
       ))}
+      {preview && (
+        <motion.img
+          src={preview}
+          alt="project preview"
+          className="w-80 h-56 object-cover rounded-lg fixed z-50 top-0 left-0 pointer-events-none shadow-lg"
+          style={{ x, y }}
+        />
+      )}
     </section>
   );
 }
