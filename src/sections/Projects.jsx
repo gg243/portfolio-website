@@ -2,13 +2,15 @@ import { section } from "motion/react-client";
 import React from "react";
 import { myProjects } from "../constant/index";
 import Project from "../components/Project";
-import { motion, useMotionValue } from "motion/react";
+import { motion, useMotionValue, useSpring } from "motion/react";
 import { useState } from "react";
 
 function Projects() {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
+  const springX = useSpring(x, { damping: 10, stiffness: 50 });
+  const springY = useSpring(y, { damping: 10, stiffness: 50 });
   const handleMouseMove = (event) => {
     x.set(event.clientX);
     y.set(event.clientY);
