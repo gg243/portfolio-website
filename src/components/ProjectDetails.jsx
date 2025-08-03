@@ -11,7 +11,7 @@ const ProjectDetails = ({
   closeModal,
 }) => {
   return (
-    <div className=" fixed inset-0 flex justify-center items-center z-50 backdrop-blur-sm w-full h-full overflow-hidden">
+    <div className=" fixed inset-52 flex justify-center items-center z-50 backdrop-blur-sm w-full h-full overflow-hidden">
       <motion.div
         className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
         intial={{ opacity: 0, scale: 0.5 }}
@@ -19,7 +19,7 @@ const ProjectDetails = ({
       >
         <button
           onClick={closeModal}
-          className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500"
+          className="absolute p-2 rounded-sm top-10 right-10 bg-midnight hover:bg-gray-500"
         >
           <img src="assets/close.svg" className="w-6 h-6" />
         </button>

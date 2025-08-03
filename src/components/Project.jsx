@@ -18,7 +18,7 @@ const Project = ({
         onMouseEnter={() => setPreview(image)}
         onMouseLeave={() => setPreview(null)}
       >
-        <div>
+        <div className="">
           <p className="text-2xl">{title}</p>
           <div className="flex gap-5 mt-2 text-sand">
             {tags.map((tag) => (
