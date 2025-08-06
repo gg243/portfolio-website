@@ -21,9 +21,11 @@ function Projects() {
   return (
     <section
       onMouseMove={handleMouseMove}
-      className="relative c-space section-spacing "
+      className="relative c-space section-spacing font-jetbrains"
     >
-      <h2 className="text-heading">My Selected Projects</h2>
+      <h2 className="text-4xl sm:text-7xl">
+        <span className="bg-amber-300">My</span> Selected Projects
+      </h2>
       <div className="bg-gradient-to-r from from-transparent via-neutral-700 to-transparent h-[1px] mt-12 w-full"></div>
       {myProjects.map((project) => (
         <Project key={project.id} {...project} setPreview={setPreview} />

@@ -326,3 +326,44 @@ export const reviews = [
     img: "https://robohash.org/eve",
   },
 ];
+
+export const testimonials = [
+  {
+    src: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?crop=faces&fit=crop&w=400&h=400&q=80",
+    name: "Elena Hart",
+    designation: "Product Designer",
+    quote: "Design is not just what it looks like — it's how it works.",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?crop=faces&fit=crop&w=400&h=400&q=80",
+    name: "Aiden Brooks",
+    designation: "Full-Stack Developer",
+    quote:
+      "The best software is built by teams that care deeply about the problem.",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1552058544-f2b08422138a?crop=faces&fit=crop&w=400&h=400&q=80",
+    name: "Marco Silva",
+    designation: "Cloud Engineer",
+    quote:
+      "Reliability and scalability are at the core of modern infrastructure.",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1552058544-f2b08422138a?crop=faces&fit=crop&w=400&h=400&q=80",
+    name: "Isla O'Connor",
+    designation: "Project Manager",
+    quote: "Great projects succeed because of collaboration and clear vision.",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?crop=faces&fit=crop&w=400&h=400&q=80",
+    name: "Nathan Kim",
+    designation: "AI Researcher",
+    quote: "Machine learning is not magic — it’s applied mathematics at scale.",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?crop=faces&fit=crop&w=400&h=400&q=80",
+    name: "Sofia Martinez",
+    designation: "DevOps Specialist",
+    quote: "Automation frees teams to focus on what really matters: building.",
+  },
+];
