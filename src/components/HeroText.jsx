@@ -30,7 +30,7 @@ function HeroText() {
           transition={{ delay: 1.2 }}
         >
           <p className="text-5xl  ">
-            A developer <br /> Dedicated to crafting
+            A Fullstack developer <br /> Dedicated to crafting
           </p>
         </motion.div>
         <motion.div
