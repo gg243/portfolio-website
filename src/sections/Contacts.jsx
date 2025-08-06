@@ -20,16 +20,16 @@ const Contacts = () => {
       <div className="flex flex-col gap-4 mt-[64px] text-xl ">
         <h2>E-MAIL</h2>
         <div className="w-full h-px bg-white/20" />
-        <p>forlanceyea@gmail.com</p>
+        <p>forlanceyea@icloud.com</p>
         <h2>PHONE</h2>
         <div className="w-full h-px bg-white/20" />
         <p>08169741984</p>
         <h2>SOCIAL MEDIA</h2>
         <div className="w-full h-px bg-white/20" />
-        <div>
-          <a></a>
-          <a></a>
-          <a></a>
+        <div className="flex gap-4">
+          <a>INSTAGRAM |</a>
+          <a>X |</a>
+          <a>LINKDELN |</a>
         </div>
       </div>
     </section>

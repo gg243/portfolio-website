@@ -10,10 +10,10 @@ function About() {
     <section id="About" className="c-space section-spacing scroll-mt-20">
       <h2 className="text-heading">About Me</h2>
       <div className="mt-12 grid grid-cols-1 md:grid-cols-6 md:auto-rows-[18rem] gap-4">
-        <div className="flex items-end grid-default-color grid-1">
+        <div className=" flex items-end grid-default-color grid-1">
           <img
-            src="assets/coding-pov.png"
-            className="absolute scale-[1.75] -right-[5rem] -top[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
+            src="assets/profile.jpeg"
+            className="absolute object-cover w-full h-full scale-110 transform"
           />
           <div className="z-10">
             <p className="headtext">Hi, I am drey</p>
