@@ -26,10 +26,26 @@ const Contacts = () => {
         <p>08169741984</p>
         <h2>SOCIAL MEDIA</h2>
         <div className="w-full h-px bg-white/20" />
-        <div className="flex tracking-widest">
-          <a>INSTAGRAM|</a>
-          <a>X|</a>
-          <a>LINKDELN|</a>
+        <div className="flex tracking-widest ">
+          <a className="hover:scale-105 cursor-pointer" href="">
+            INSTAGRAM|
+          </a>
+          <a className="hover:scale-105 cursor-pointer" href="">
+            {" "}
+            X|
+          </a>
+          <a
+            className="hover:scale-105 cursor-pointer"
+            href="https://www.linkedin.com/in/emmanuel-damilare/"
+          >
+            LINKDELN|
+          </a>
+          <a
+            className="hover:scale-105 cursor-pointer"
+            href="https://github.com/gg243"
+          >
+            GITHUB
+          </a>
         </div>
       </div>
     </section>
