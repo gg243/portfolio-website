@@ -26,10 +26,10 @@ const Contacts = () => {
         <p>08169741984</p>
         <h2>SOCIAL MEDIA</h2>
         <div className="w-full h-px bg-white/20" />
-        <div className="flex gap-4">
-          <a>INSTAGRAM |</a>
-          <a>X |</a>
-          <a>LINKDELN |</a>
+        <div className="flex tracking-widest">
+          <a>INSTAGRAM|</a>
+          <a>X|</a>
+          <a>LINKDELN|</a>
         </div>
       </div>
     </section>

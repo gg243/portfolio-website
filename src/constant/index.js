@@ -244,38 +244,47 @@ export const mySocials = [
 export const experiences = [
   {
     title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    job: "Freelancer",
+    date: "January 2024 – Present",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Collaborated with other developers on the design, development, and testing of programs.",
+      "Designed and coded new software or modified existing applications to add new features.",
+      "Developed and implemented various web-based applications for clients.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Frontend Developer Intern",
+    job: "Toksfarm, Osun State",
+    date: "February 2024 – July 2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Built and maintained user interfaces with React.js.",
+      "Assisted with the development of content management systems.",
+      "Resolved browser compatibility issues to ensure optimal performance.",
+      "Utilized version control tools such as Git and GitHub to manage the codebase.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "DevOps Engineer Intern",
+    job: "HNG, Lagos",
+    date: "June 2024 – July 2024",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Automated employee credential generation using Bash scripting, AWS IAM APIs, and Linux cron jobs with RBAC implementation, reducing manual effort by 95%.",
+      "Built a cloud deployment automation pipeline for a three-tier application (React / FastAPI / PostgreSQL) using Docker and GitHub Actions for consistent multi-environment deployments (dev/staging/prod).",
+    ],
+  },
+  {
+    title: "Cloud Data Engineer Intern",
+    job: "Gavel NG, Lagos",
+    date: "May 2022 – November 2022",
+    contents: [
+      "Built custom data visualizations using Amazon QuickSight to present insights interactively.",
+      "Utilized SQL queries to extract relevant information from large databases.",
+      "Cleaned and manipulated raw data for analysis.",
+      "Backed up critical data to Amazon S3 for secure storage.",
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Jack",
