@@ -30,7 +30,7 @@ const Project = ({
           onClick={() => setIsHidden(true)}
           className="flex item-center justify-center gap-1 hover-animation cursor-pointer"
         >
-          Readmore
+          Read more
           <img
             src="assets/arrow-right.svg"
             alt="arrow right icon"

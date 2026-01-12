@@ -1,7 +1,9 @@
 import React from "react";
 import { motion } from "motion/react";
+import { FlipWords } from "./FlipWords";
 
 function HeroText() {
+  const words = ["engaging", "captivating", "responsive"];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
@@ -40,7 +42,7 @@ function HeroText() {
           animate="visible"
           transition={{ delay: 1.5 }}
         >
-          Flip words
+          <FlipWords words={words} className="text-white p-0" />
         </motion.div>
         <motion.p
           className="text-4xl"
@@ -76,14 +78,13 @@ function HeroText() {
         </motion.p>
 
         <motion.div
-          className="text-6xl
-        "
+          className="text-6xl"
           variants={variants}
           initial="hidden"
           animate="visible"
           transition={{ delay: 1.5 }}
         >
-          FlipWords
+          <FlipWords words={words} className="text-white p-0" />
         </motion.div>
         <motion.p
           className="text-4xl font-black text-neutral-300 "
