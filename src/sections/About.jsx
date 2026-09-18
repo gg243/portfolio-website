@@ -115,7 +115,7 @@ function About() {
               </li>
             </ol>
             <p className="subtext mt-1 ">
-              Currently exploring the exciting world of Web3, diving deep into
+              Currently exploring the world of Web3, diving deep into
               cryptocurrency concepts and learning Solidity for smart contract
               development.
             </p>
