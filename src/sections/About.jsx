@@ -96,14 +96,12 @@ function About() {
         <div className="grid-default-color grid-5 p-2">
           <div className="overflow-auto h-full">
             <div className="subtext p-1 font-jetbrains">
-              I'm a software engineer with a diverse background in cloud
-              engineering and full-stack development. My expertise spans across
-              multiple technologies including:
+              I'm a Cloud Engineer and Frontend Developer with a diverse background in building scalable infrastructure and engaging user interfaces. My expertise spans across multiple technologies including:
             </div>
             <ol className=" subtext text-white">
               <li>
                 <span className="font-extrabold text-3xl">.</span> AWS, Azure,
-                for cloud Engineerinf and Devops
+                for Cloud Engineering and DevOps
               </li>
               <li>
                 <span className="font-extrabold text-3xl">.</span> TypeScript
